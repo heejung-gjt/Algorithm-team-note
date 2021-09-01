@@ -1,30 +1,32 @@
+# -*- coding: utf-8 -*-
+class Node:
+    def __init__(self, v, n = None):
+        self.value = v
+        self.next = n
+
+
 class SinglyLinkedList:
-    
-    class Node:
-        def __init__(self, v, n = None):
-            self.value = v
-            self.next = n
             
     def __init__(self):
         self.head = None
 
     def insertNode(self, data):
         if self.head is None:
-            print('Ãß°¡µÇ´Â µ¥ÀÌÅÍ>>>', data)
-            self.head = self.Node(data)
+            print('ì¶”ê°€ë˜ëŠ” ë°ì´í„°>>>', data)
+            self.head = Node(data)
         else:
-            print('Ãß°¡µÇ´Â µ¥ÀÌÅÍ>>>', data)
-            self.head = self.Node(data, self.head)
+            print('ì¶”ê°€ë˜ëŠ” ë°ì´í„°>>>', data)
+            self.head = Node(data, self.head)
 
     def outputNode(self):
         if self.head is None:
-            print('Ãâ·ÂÇÒ ³ëµå°¡ ¾ø½À´Ï´Ù')
+            print('ì¶œë ¥í•  ë…¸ë“œê°€ ì—†ìŠµë‹ˆë‹¤')
             print()
             return
         else:
             link = self.head
             print()
-            print('Ãâ·ÂµÇ´Â ³ëµå>>>>', end= ' ')
+            print('ì¶œë ¥ë˜ëŠ” ë…¸ë“œ>>>>', end= ' ')
             while link:
                 print(link.value, end=' ')
                 link = link.next
@@ -33,15 +35,15 @@ class SinglyLinkedList:
             
     def deleteNode(self):
         if self.head is None:
-            print('»èÁ¦ÇÒ ³ëµå°¡ ¾ø½À´Ï´Ù')
+            print('ì‚­ì œí•  ë…¸ë“œê°€ ì—†ìŠµë‹ˆë‹¤')
             return
         else:
-            print('»èÁ¦µÇ´Â ³ëµå : ', self.head.value)
+            print('ì‚­ì œë˜ëŠ” ë…¸ë“œ : ', self.head.value)
             self.head = self.head.next
 
     def searchNode(self, data):
         if self.head is None:
-            print('Ã£À»¼ö ÀÖ´Â ³ëµå°¡ ¾ø½À´Ï´Ù')
+            print('ì°¾ì„ìˆ˜ ìˆëŠ” ë…¸ë“œê°€ ì—†ìŠµë‹ˆë‹¤')
             return
         else:
             link = self.head
@@ -52,20 +54,36 @@ class SinglyLinkedList:
                 else:
                     link = link.next
                     index += 1
-            print(f'Ã£À¸½Ã´Â {data} µ¥ÀÌÅÍ´Â ¾ø½À´Ï´Ù')
+            print(f'ì°¾ìœ¼ì‹œëŠ” {data} ë°ì´í„°ëŠ” ì—†ìŠµë‹ˆë‹¤')
+
+    def emptyNode(self):
+        if self.head is None:
+            print('í•´ë‹¹ ë…¸ë“œëŠ” ë¹„ì›Œì ¸ ìˆìŠµë‹ˆë‹¤')
+            return True
+        else:
+            print('í•´ë‹¹ ë…¸ë“œëŠ” ì¡´ì¬í•©ë‹ˆë‹¤')
+            return False
+
+    def peekNode(self):
+        if self.head is None:
+            print('ë…¸ë“œê°€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤')
+        else:
+            return print(f'í˜„ì¬ headì— ì¡´ì¬í•˜ëŠ” ë°ì´í„°ëŠ” {self.head.value} ì…ë‹ˆë‹¤')
                         
                         
-s1 = SinglyLinkedList()
-s1.outputNode()
+# s1 = SinglyLinkedList()
+# s1.outputNode()
 
-[s1.insertNode(i) for i in range(1, 6)]
-s1.outputNode()
+# [s1.insertNode(i) for i in range(1, 6)]
+# s1.outputNode()
 
-s1.deleteNode()
-s1.deleteNode()
-s1.deleteNode()
+# s1.deleteNode()
+# s1.deleteNode()
+# s1.deleteNode()
 
-s1.outputNode()
+# s1.outputNode()
 
-s1.searchNode(5)
-s1.searchNode(1)
+# s1.searchNode(5)
+# s1.searchNode(1)
+
+# s1. peekNode()
