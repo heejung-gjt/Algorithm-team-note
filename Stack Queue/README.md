@@ -5,7 +5,7 @@
 __list로 구현이 가능하기 때문에 굳이 링크드 리스트로 구현하지 않아도 된다__   
  
 
-### ??? ??   
+### 스택의 동작
 ![stack](https://user-images.githubusercontent.com/64240637/107119454-fea76d80-68ca-11eb-9430-743b88841a13.PNG)    
 
 append : 데이터를 삽입하는 동작이다
@@ -68,7 +68,6 @@ class Queue:
     
 ```
 
-- ????? ???? ??? Queue()? ??, put(), get() ??
 ```python
 import queue
 
@@ -92,7 +91,6 @@ class Queue:
         return self.list[0]    
 ```
 
-- ??? ??? ??
 ```python
 class LinkedListQueue:
     
