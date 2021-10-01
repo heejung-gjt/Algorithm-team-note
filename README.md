@@ -8,13 +8,15 @@
 
 - [중첩 for문](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/python%20%EB%AC%B8%EB%B2%95/%EC%A4%91%EC%B2%A9for%EB%AC%B8.py)   
 
-- [set - 집합](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/python%20%EB%AC%B8%EB%B2%95/set.py)   
+- [set - 집합](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/python%20%EB%AC%B8%EB%B2%95/set.py)     
+
+- [리스트 변환]()
 
 <br>
 
 ### 알고리즘 정리
 
-- [Lamda와 Sort - 다중 조건 정렬](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/python%20%EB%AC%B8%EB%B2%95/lambda_sort.py)    
+- [Lamda와 Sort - 다중 조건 정렬](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%8B%A4%EC%A4%91%EC%A1%B0%EA%B1%B4%20%EC%A0%95%EB%A0%AC.py)    
 
 - [대문자 소문자 변환하기](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%8C%80%EB%AC%B8%EC%9E%90%EC%86%8C%EB%AC%B8%EC%9E%90%20%EB%B0%94%EA%BE%B8%EA%B8%B0.py)   
 
@@ -27,3 +29,5 @@
 - [약수 구하기](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%95%BD%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0.py)    
 
 - [진수 변환하기](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%A7%84%EC%88%98%EB%B3%80%ED%99%98.py)     
+
+-[리스트 행렬 더하기]()
