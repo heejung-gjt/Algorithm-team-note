@@ -6,9 +6,9 @@
 ### 파이썬 문법 정리
 
 
--[중첩 for문](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/python%20%EB%AC%B8%EB%B2%95/%EC%A4%91%EC%B2%A9for%EB%AC%B8.py)   
+- [중첩 for문](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/python%20%EB%AC%B8%EB%B2%95/%EC%A4%91%EC%B2%A9for%EB%AC%B8.py)   
 
-- [set - 집합]()   
+- [set - 집합](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/python%20%EB%AC%B8%EB%B2%95/set.py)   
 
 <br>
 
