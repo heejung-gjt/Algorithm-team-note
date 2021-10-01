@@ -31,3 +31,10 @@
 - [진수 변환하기](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%A7%84%EC%88%98%EB%B3%80%ED%99%98.py)     
 
 - [리스트 행렬 더하기](https://github.com/heejung-gjt/Algorithm-team-note/blob/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EB%A6%AC%EC%8A%A4%ED%8A%B8%ED%96%89%EB%A0%AC%20%EB%8D%94%ED%95%98%EA%B8%B0.py)
+
+
+<br>
+
+### SQL문법
+
+- [LEFT JOIN]()
